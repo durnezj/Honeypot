@@ -1,0 +1,144 @@
+body{
+    background-image: url("http://p1.pichost.me/i/28/1507679.jpg");
+    font-family: 'Helvetica', 'Verdana',  sans-serif;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 800;
+    color: white;
+}
+
+table, td, th {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#poohbear{
+    width: 40%;
+    float: left;
+}
+/*
+#poohbear:hover{
+    content: url("images/drinking.png");
+
+
+}
+*/
+
+th {
+    text-align: left;
+    background-color: darkred;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+form, input, textarea, div{
+    color: black;
+    margin: auto;
+text-align: center
+}
+
+th>a{
+    float:right;
+    color: yellow;
+}
+
+
+td{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: grey;
+}
+
+.button{
+    color: dodgerblue;
+}
+
+
+nav {
+    margin: 20px;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #aaa;
+    padding: 0 20px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font: 20px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: #666;
+}
+
+li.active a {
+    font-weight: bold;
+    color: #333;
+}
+
+
+
+#kappa{
+	text-align:center;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+#forum{
+    padding-bottom: 50px;
+}
+
+#forum td p {
+    max-width: 800px;
+    overflow: hidden;
+}
+
+#colorbox #cboxClose
+{
+    top: 0;
+    right: 0;
+}
+#cboxLoadedContent{
+    margin-top:28px;
+    margin-bottom:0;
+}
+
+.photo{
+	margin: 20px;
+}
+
+
+
