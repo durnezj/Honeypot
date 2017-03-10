@@ -16,9 +16,7 @@ class Config
         $this->server = "localhost";
         $this->database = "honeypot";
         $this->username = "admin";
-        //$this->username = "root";
         //$this->password = "";
-        $this->password = "G8ev$+LYed2-K6?V";
 
         $this->mimetypes = array('gif' => 'image/gif',
             'jpg' => 'image/jpeg',
